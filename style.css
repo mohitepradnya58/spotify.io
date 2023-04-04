@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand img{
+    width: 60px;
+    height: 55px;
+    margin: 30px 0 30px 200px;
+    padding: 0 8px;
+}
+.brand{
+    font-size: 30px;
+    margin-right: 170x;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+
+    
+    
+}
+.bottom{
+    display: flex;
+    position: fixed;
+    position: sticky;
+    min-width: 100%;
+    background-color: black;
+    color: white;
+    height: 130px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 34px;
+    font-size: 25px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    background-color: white;
+    color: black;
+    height: 50px;
+    border-radius: 70px;
+    margin: 20px;
+}
+.songItem img{
+    height: 40px;
+    margin: 5px 0 5px 20px;
+    border-radius: 34px;
+}
+.songItem span{
+    display: flex;
+    align-items: center;
+}
+.songlistplay i{   
+     margin-top: 3px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.songlist{
+    margin-left: 40vw;
+}
+
+.bg-img{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.mt-19{
+    margin-top: 19px !important;
+}
+
+.main-nav{
+    background-color: #000;
+    color: #fff;
+}
+.ml-89{
+    margin-left: 89px;
+}
+.height-46{
+    height: 46px;
+}
